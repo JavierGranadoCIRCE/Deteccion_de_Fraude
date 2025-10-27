@@ -1,0 +1,3 @@
+*.zip
+fake_npz/
+checkpoints/
