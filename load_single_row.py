@@ -3,6 +3,7 @@ import argparse, json
 from pathlib import Path
 import numpy as np
 EXPECTED_T = 17520
+
 def robust_scale(x):
     med = np.median(x[~np.isnan(x)])
     q25 = np.percentile(x[~np.isnan(x)], 25)
