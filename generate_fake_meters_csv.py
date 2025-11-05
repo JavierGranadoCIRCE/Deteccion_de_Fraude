@@ -15,10 +15,10 @@ from tqdm import trange
 #   batch_single_row_to_npz.py
 # ============================================================
 
-N_METERS = 1      # Número de contadores a generar
+N_METERS = 6     # Número de contadores a generar
 T = 17520             # Horas (2 años)
 FRAUD_RATIO = 0.05    # % de contadores fraudulentos
-OUT_FILE = "fake_meters_multirow_new.csv"
+OUT_FILE = "fake_meters_multirow_6.csv"
 SEED = 42
 
 rng = np.random.default_rng(SEED)
